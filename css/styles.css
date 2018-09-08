@@ -1,0 +1,238 @@
+*{
+	/*border: solid;*/
+}
+
+picture {
+	position: relative;
+}
+
+html,body {
+	align-content: center;
+	width:100%;
+	overflow: scroll!important;
+}
+
+.container {
+	width: 100%;
+}
+
+.my-col {
+	padding:0px;
+	position:relative;
+}
+
+.header {
+	padding:0px;
+}
+
+text {
+	float:right;
+	display: inline-block;
+    text-transform: uppercase;
+}
+section {
+	display:block;
+}
+hr {
+	width:100%;
+	margin-left:0px;
+	height:5px;
+
+}
+.udacity_logo.container {
+	display:inline;
+}
+
+.Udacity_logo {
+    margin:23px;
+	margin-bottom:0px;
+	margin-left:-10px;
+	width:76px;
+	} 
+
+.text {
+	float:right;
+	white-space: nowrap;
+}
+
+h1, p {
+	text-transform: uppercase;
+}
+
+h1 {
+	margin-bottom:0px;
+	font-family: 'Quicksand', sans-serif;
+	margin-right: 0px;
+	text-align: right;
+	font-size:36px;
+	margin-top:31px;
+}
+
+p {
+	margin-top:0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	text-align: right;
+	font-size:15px ;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+hr {
+	border:none;
+	display: block;
+	height:5px;
+	background-color: #7d97ad;
+	margin-top:0px;
+}
+
+h2 {
+    font-family: 'Montserrat';
+	color: #7d97ad;
+	font-size: 23px;
+	margin-top:10px;
+} 
+
+.card{
+	position:relative
+}
+
+.card_image {
+	width:100%;
+	position:relative; 
+	right:0;
+	bottom:0;
+	height:100%;
+	vertical-align: top;
+	transition: all 200ms ease;
+}
+
+.wrap {
+	position:relative;
+}
+
+.carousel_images {
+	max-height: 24em;
+	width:100%;
+	height:100%;
+	min-height:283px;
+	min-width:393px;
+}
+
+.carousel_inner {
+	position: relative;
+	max-height:28em;
+}
+
+.wrapper {
+	   position:absolute;
+	   bottom:0;
+	   background:rgba(0,0,0,0.5);
+	   color: #f1f1f1;
+	   width:100%;
+}
+
+h3 {
+    font-size:22px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+span {
+    font-family:'Roboto', sans-serif;
+    white-space: nowrap;
+    display: block;
+    text-align: center;
+}
+
+
+
+@media only screen and (min-width: 0px)  and (max-width: 575px)  {
+    .Udacity_logo {
+    	margin:28px;
+	    margin-bottom:0px;
+	    margin-left:-2px;
+	    width:76px;
+	}      /* width=103px*/
+
+	h1 {
+		margin-right: 5px;
+	}
+
+
+	h2 {
+		margin-left:8px;
+		text-align:center;
+	}
+
+    .card_image {
+    	max-width: 100%;
+    	max-height: 300px;
+    }
+
+    hr {
+		margin-left:5px;
+	}
+
+	.Udacity_logo {
+		margin-left:-4px;
+		margin-top:5px;
+	}
+
+    h1 {
+    	margin-top:9px;
+    }
+
+    .card {
+    	max-width:411px;
+    	max-height:274px;
+    	margin-left:auto;
+    	margin-right:auto;
+    }
+
+    .carousel-inner {
+    	object-fit: cover;
+    	height:18em;
+    	min-height:250px;
+    }
+
+    .carousel-images {
+    	max-height:24em;
+    }
+
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+	.carousel-inner {
+		height:22em;
+    }
+
+}
+
+
+@media only screen and (min-width:991px) and (max-width:2400px) {
+	.card_image {
+		max-height:281px;
+	}
+
+	h3 {
+		
+		text-align: center;
+	}
+
+	span {
+		text-align: center;
+		display: block;
+	}
+
+	.wrapper {
+		text-align: center;
+	}
+
+	.carousel-inner {
+		height:35em!important;
+    }
+
+    .carousel_images {
+    	max-height:35em!important;
+    }
+}
