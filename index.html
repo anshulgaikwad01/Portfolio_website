@@ -4,31 +4,45 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap.css -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- jquery --> 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
 	</script>
+    <!-- bootstrap.js -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
+    <!-- popper.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
-	<title>Miracles in disguise</title>
+    <title>Miracles in disguise</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300%7cMontserrat:500%7cUbuntu%7cOpen+Sans%7cRoboto" rel="stylesheet">
-</head>
+    <!-- icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 <body>
 	<link rel="shortcut icon" type="image/x-icon" href="images_src/favicon.ico">
-	<div class="container my-container">
-	<header class="row justify-content-between header">
-		<div class="Udacity_logo.container col-3 logo my-col">
-		    <img src="images_src/logo-small.png" alt="Udacity_logo" class="Udacity_logo"> <!-- Udacity_logo-->
-		</div>  
-		<div class="text col-9 my-col"> 
-		    <h1>Jane Doette</h1>
-		    <p>Front-End Ninja</p>
-        </div> 
-        <hr>
-	</header>
-	<div class="row my-row">
+    <div class="container my-container">
+        
+	
+        <header class="row justify-content-between header">
+
+              <!-- Udacity_logo -->
+		    <div class="Udacity_logo.container col-3 logo my-col">
+		        <img src="images_src/logo-small.png" alt="Udacity_logo" class="Udacity_logo"> 
+		    </div> 
+
+              <!-- text --> 
+		    <div class="text col-9 my-col"> 
+		        <h1>Jane Doette</h1>
+		        <p>Front-End Ninja</p>
+              </div> 
+              <hr>
+	     </header>
+
+    <!-- carousel -->
+	<section class="row my-row"> 
 	    <div class="col-12 my-col">
 	    	<div class="wrap">
 	    		<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -100,14 +114,14 @@
                 </div>   
             </div>
         </div>
-    </div>
+    </section>
     <section class="row Featured-word">
         <div class="text col-12 my-col">
         	<h2>Featured Work</h2>
         </div> <!-- Featured Work -->
     </section>
-    <section class="row cards justify-content-sm-between">
-    	<div class="col-lg-4 col-md-6 col-sm-5 xs-10 card my-col">
+    <section class="row cards justify-content-sm-between">  
+    	<div class="col-lg-4 col-md-6 col-sm-6 xs-10 card my-col">
     		<picture class="card_image">
                 <source media="(max-width:400px)" srcset="images_src/Appify-small.jpg" title="Appify" class="card_image">
     		    <source media="(max-width:567px)" srcset="images_src/Appify-mid.jpg" title="Appify" class="card_image">
@@ -119,7 +133,7 @@
     		    <span>https://github.com/udacity/Appify</span>
     	    </div>
     	</div>
-    	<div class="col-lg-4 col-md-6 col-sm-5 xs-10 card my-col"> 
+    	<div class="col-lg-4 col-md-6 col-sm-6 xs-10 card my-col"> 
     		<picture class="card_image">
     		    <source media="(max-width:400px)" srcset="images_src/sunflower-small.jpg" title="cute puppy" class="card_image">
     		    <source media="(max-width:567px)" srcset="images_src/sunflower-mid.jpg" title="cute puppy" class="card_image">
@@ -131,7 +145,7 @@
     		    <span>https://github.com/udacity/Sunflower</span>
     	    </div>
     	</div>
-    	<div class="col-lg-4 col-md-6 col-sm-5 xs-10 card my-col"> 
+    	<div class="col-lg-4 col-md-6 col-sm-6 xs-10 card my-col"> 
     		<picture class="card_image">
     			<source media="(max-width:400px)" srcset="images_src/Bokeh-small.jpg" title="christmas tree" class="card_image">
     		    <source media="(max-width:567px)" srcset="images_src/Bokeh-mid.jpg" title="christmas tree" class="card_image">
@@ -144,7 +158,7 @@
     	         <span>https://github.com/udacity/Bokeh</span>
     	    </div>
     	</div>  
-    	<div class="col-lg-4 col-md-6 col-sm-5 xs-10 card my-col">
+    	<div class="col-lg-4 col-md-6 col-sm-6 xs-10 card my-col">
     		<picture class="card_image">
     			<source media="(max-width:400px)" srcset="images_src/India-small.jpg" title="Taj Mahal" class="card_image">
     		    <source media="(max-width:567px)" srcset="images_src/India-mid.jpg" title="Taj Mahal" class="card_image">
@@ -156,7 +170,7 @@
                 <span>https://github.com/udacity/India</span>
             </div>
     	</div>
-    	<div class="col-lg-4 col-md-6 col-sm-5 xs-10 card my-col">
+    	<div class="col-lg-4 col-md-6 col-sm-6 xs-10 card my-col">
     		<picture class="card_image">
     			<source media="(max-width:400px)" srcset="images_src/water-small.jpg" title="leafs and water" class="card_image">
     		    <source media="(max-width:567px)" srcset="images_src/water-mid.jpg" title="leafs and water" class="card_image">
@@ -169,7 +183,7 @@
     		    <span>https://github.com/udacity/Water</span>
     	    </div>
     	</div>
-    	<div class="col-lg-4 col-md-6 col-sm-5 xs-10 card my-col">
+    	<div class="col-lg-4 col-md-6 col-sm-6 xs-10 card my-col">
     		<picture class="card_image">
     			<source media="(max-width:400px)" srcset="images_src/mountains-small.jpg" title="Rocky Mountains, Canada" class="card_image">
     		    <source media="(max-width:567px)" srcset="images_src/mountains-mid.jpg" title="Rocky Mountains, Canada" class="card_image">
@@ -182,7 +196,7 @@
     		    <span>https://github.com/udacity/Mountains</span>
     	    </div>
     	</div>
-    	<div class="col-lg-4 col-md-6 col-sm-5 xs-10 card my-col">
+    	<div class="col-lg-4 col-md-6 col-sm-6 xs-10 card my-col">
     		<picture class="card_image">
     			<source media="(max-width:400px)" srcset="images_src/skies-small.jpg" title="Nunuvat, Canada" class="card_image">
     		    <source media="(max-width:567px)" srcset="images_src/skies-mid.jpg" title="Nunuvat, Canada" class="card_image">
@@ -195,7 +209,46 @@
     		    <span>https://github.com/udacity/Skies</span>
     	    </div>
     	</div>
+        <hr class="bottom">
     </section>
-    </div>
+    <footer class="row">
+        <div class="col-12 my-col footer">
+            <h2>Hire us</h2>
+            <lines>
+                <span>We're currently taking on new projects. Would you like to discuss yours?</span>
+            </lines>
+            <contact-us>
+                <span>Contact us →</span>
+                <span>+917424451503</span>
+                <span>hi@blueroyale.co.uk</span>
+            </contact-us>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com" target="blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.twitter.com" target="blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com" target="blank">
+                        <i class="fab fa-instagram" style="font-size:17px"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.youtube.com" target="blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+    </footer>
+</div>
+
 </body>
 </html>

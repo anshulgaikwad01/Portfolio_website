@@ -10,6 +10,7 @@ html,body {
 	align-content: center;
 	width:100%;
 	overflow: scroll!important;
+	transition: all 200ms ease;
 }
 
 .container {
@@ -65,7 +66,7 @@ h1 {
 	margin-right: 0px;
 	text-align: right;
 	font-size:36px;
-	margin-top:31px;
+	margin-top:25px;
 }
 
 p {
@@ -93,7 +94,8 @@ h2 {
 } 
 
 .card{
-	position:relative
+	position:relative;
+	transition: all 200ms ease;
 }
 
 .card_image {
@@ -111,16 +113,17 @@ h2 {
 }
 
 .carousel_images {
-	max-height: 24em;
+	max-height: 50em;
 	width:100%;
-	height:100%;
-	min-height:283px;
-	min-width:393px;
+	height: 100%;
+	min-height:400px;
+	min-width:400px;
+	position:relative;
 }
 
 .carousel_inner {
 	position: relative;
-	max-height:28em;
+	max-height:42em;
 }
 
 .wrapper {
@@ -144,6 +147,61 @@ span {
     text-align: center;
 }
 
+.footer {
+	padding:23px;
+}
+
+.footer ul {
+	list-style:none;
+	margin-top:-10px;
+	text-align: center;
+	padding:0px;
+}
+
+.footer ul li { 
+	border:0px;
+	margin:auto; 
+	padding:0; 
+	border:0; 
+	display: inline-block;
+	margin-top, margin-bottom: 0px;
+	margin:9px;
+}
+
+.footer a {
+	color:#343a40;
+	float: left; margin:0; 
+	text-decoration:none;
+}
+
+.footer h2 {
+	text-align:center;
+	font-family:"Quicksand",sans-serif;
+	font-size:36px;
+}
+
+.footer span {
+	white-space: normal;
+	font-family:"Quicksand", sans-serif;
+	font-size:22px;
+}
+
+.footer .contact-me span {
+	font-size:20px;
+	margin-top:15px;
+	margin-bottom: 0px;
+
+}
+
+.bottom {
+	margin-top: 10px;
+} 
+
+.lines
+{
+	margin:26px;
+} 
+
 
 
 @media only screen and (min-width: 0px)  and (max-width: 575px)  {
@@ -166,7 +224,7 @@ span {
 
     .card_image {
     	max-width: 100%;
-    	max-height: 300px;
+    	max-height: 100%;
     }
 
     hr {
@@ -183,20 +241,21 @@ span {
     }
 
     .card {
-    	max-width:411px;
-    	max-height:274px;
+    	max-width:100%;
+    	max-height:20em;
     	margin-left:auto;
     	margin-right:auto;
     }
 
     .carousel-inner {
     	object-fit: cover;
-    	height:18em;
+    	height:23em;
     	min-height:250px;
     }
 
     .carousel-images {
-    	max-height:24em;
+    	min-height:25em;
+    	min-width:29em;
     }
 
 }
@@ -206,6 +265,25 @@ span {
 		height:22em;
     }
 
+    .carousel-images {
+    	height:21em;
+    }
+
+    span {
+    	font-size:15px;
+    }
+}
+
+
+
+@media only screen and (min-width:768px) and (max-height:990px) {
+	.carousel-inner {
+		height:26em;
+	}
+
+	.carousel-images {
+		height:25em;
+	}
 }
 
 
@@ -229,10 +307,10 @@ span {
 	}
 
 	.carousel-inner {
-		height:35em!important;
+		height:39em!important;
     }
 
     .carousel_images {
-    	max-height:35em!important;
+    	max-height:47em!important;*/
     }
 }
